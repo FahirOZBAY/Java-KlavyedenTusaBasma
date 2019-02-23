@@ -1,5 +1,4 @@
 package KlavyedenTusaBasma;
-
 import java.awt.AWTException;
 import java.awt.HeadlessException;
 import java.awt.Robot;
@@ -17,10 +16,8 @@ public class TusaBas {
 			robot.keyRelease(KeyEvent.VK_PRINTSCREEN);
 			isPressed = true;
 		} catch (HeadlessException | AWTException e) {
-			// TODO Auto-generated catch block
+		
 			e.printStackTrace();
 		}
-
 	}
-
 }
